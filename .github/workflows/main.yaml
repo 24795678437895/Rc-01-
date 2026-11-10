@@ -1,5 +1,4 @@
- YAML name: Rc-01 Android APK Build
-on:
+ name: Rc-01 Android APK Build on:
  wortkflow_dispach:
    jobs:     
        build:
