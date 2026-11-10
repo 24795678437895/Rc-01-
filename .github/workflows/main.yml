@@ -1,17 +1,15 @@
-YAML ^
- name: Rc-01 Android APK Build
+YAML name: Rc-01 Android APK Build
 on:
  wortkflow_dispach:
- jobs:
-   
-   build:
-    name:Build Android APK
+   jobs:     
+       build:
+        name:Build Android APK
   runs- on: ubuntu-latest
   
   steps:
   - name: Checkout repository
     uses:
-    actions/checkout@v4
+      actions/checkout@v4
            - name:Build APK
       run:echo"Rc-01 build started"
       
